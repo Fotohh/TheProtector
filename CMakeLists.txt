@@ -3,7 +3,7 @@ project(TheProtector LANGUAGES CXX)
 
 find_package(SDL3 CONFIG REQUIRED)
 
-add_executable(TheProtector src/main.cpp)
+add_executable(TheProtector src/main.cc)
 
 target_compile_features(
 	TheProtector
